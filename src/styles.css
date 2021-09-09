@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.display{
+display:flex;
+justify-content: space-around;
+}
+button{
+  width: 100px;
+  height: 35px;
+  margin-top: 10px;
+}
+.menu{
+  width: 30px;
+  height:30px;
+  background: transparent;
+  border: none;
+
+}
+.maindiv{
+  display: flex;
+}
+.container{
+  /* position: fixed;
+  left: 0;
+  top: 0; */
+  margin-left: -10px;
+  height: 100vh;
+  width: 0;
+  color: white;
+  background-color: black;
+  transition: all 1s;
+}
+
+a{
+  width: 180px;
+  margin: 20px;
+  display: block;
+}
+/* .container:hover{
+  width: 200px;
+  transition: all 1s;
+} */
+p{
+  margin: 20px;
+}
+span{
+  margin-left: 30px;
+}
+.containerexpand{
+  margin-left: -10px;
+  height: 100vh;
+  width: 200px;
+  color: white;
+  background-color: black;
+  transition: all 1s;
+}
